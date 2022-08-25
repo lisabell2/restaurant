@@ -1,0 +1,66 @@
+body{
+    background-image: url('https://cdn.tasteatlas.com/images/toplistarticles/8cc45833c34a4bc99d85375ecfde18f6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    
+}
+
+#container{
+    background-color: rgba(209, 67, 6, 0.63);
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 540px;
+    height: 590px;
+    border-radius: 40px;
+    color: aliceblue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+
+h1{
+    align-items: center;
+}
+
+input{
+    padding:5px;
+}
+
+#addTip{
+    background-color: green;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#btn{
+    background-color: burlywood;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+#tip{
+    display: none;
+}
+
+#showTotalAmountPay{
+    display: flex;
+}
+
+#totalAmount, #totalTip, #billSplit{
+    background-color: orange;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+
+}
